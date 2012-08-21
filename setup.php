@@ -42,7 +42,7 @@ switch(db_connect()) {
 
 if (!$runnable)
 {
-  echo _("to run script uncomment runnable");
+  echo '<p>' . _("To run script uncomment runnable in setup.php");
   die ;
 }
 
